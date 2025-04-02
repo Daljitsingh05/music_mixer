@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #333;
+}
+
+#animals {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px;
+}
+
+.animal {
+    width: 80px;  /* Adjust image size */
+    height: 80px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: grab;
+}
+
+#dropbox {
+    width: 300px;
+    height: 150px;
+    margin: 20px auto;
+    border: 2px dashed black;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
