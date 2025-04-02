@@ -1,7 +1,7 @@
 const sounds = {
     cat: new Audio('audio/cat.wav'),
-    dogs: new Audio('audio/dogs.wav'),
-    bird: new Audio('audio/bird.wav'),
+    dog: new Audio('audio/dogs.wav'),
+    Bird: new Audio('audio/bird.wav'),
     rooster: new Audio('audio/rooster.wav'),
     wolves: new Audio('audio/wolves.wav')
 };
